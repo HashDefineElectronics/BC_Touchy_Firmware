@@ -16,6 +16,7 @@ This is where the compiled version of the projects are stored. These are purely 
 
 - **Simple**  
 As the name suggest, this is a simple project to for test the basic functionality of the Touchy board. It uses Silabs CapsenseCircleSlider example project as its template. [Touchy](http://www.boldport.club/shop/product/437209749) board.  
+**Demo Video**
 [![#5 - Demo of the test firmware for Boldport Kit no. 7 Touchy](http://img.youtube.com/vi/UFBcgWf9tuo/0.jpg)](https://youtu.be/UFBcgWf9tuo)
 
 ### IDE
