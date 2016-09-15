@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.efm8bb3_g.kit.si8051.efm8bb3_slstk2022a.demo.efm8bb3_rainbowblinky" label="EFM8BB3 Rainbow Blinky" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="Rainbow Blinky"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.efm8bb3_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.efm8bb3_slstk2022a"/>
+    <description>&lt;h1>&lt;b>Rainbow Blinky Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example demonstrates the RGB LED using the joystick to control the color output.&lt;/pre></description>
+    <openedResource>EFM8BB3_RainbowBlinky.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

@@ -19,6 +19,9 @@ As the name suggest, this is a simple project to for test the basic functionalit
 **Demo Video**  
 [![#5 - Demo of the test firmware for Boldport Kit no. 7 Touchy](http://img.youtube.com/vi/UFBcgWf9tuo/0.jpg)](https://youtu.be/UFBcgWf9tuo)
 
+- **Bootloader**  
+This is where the bootloader firmware and tools are located. Note this was taken direction from silabs [AN945SW.zip](http://www.silabs.com/Support%20Documents/Software/AN945SW.zip) and [AN945.pdf](http://www.silabs.com/Support%20Documents/TechnicalDocs/AN945.pdf).
+
 ### IDE
 This project uses [Silabs Simplicity studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx).
 

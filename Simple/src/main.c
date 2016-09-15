@@ -78,7 +78,5 @@ int main(void) {
 			LED1 = LED2 = LED3 = LED4 = LED5 = true;
 			PCA0CPH0 = 0;
 		}
-
-		Tick_Wait(100);
 	}
 }

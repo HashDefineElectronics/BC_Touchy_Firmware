@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/sls/hc/document/device.ecore" name="EFM8SB10F8G-A-QSOP24" partId="com.silabs.mcu.si8051.efm8sb1_g.efm8sb10f8g">
+  <mode name="DefaultMode">
+    <property object="CLOCK_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="CLOCK_0" propertyId="clock.clockselect.selectclocksource" value="Low-Power Oscillator"/>
+    <property object="CROSSBAR0" propertyId="xbar0.pca0.cex" value="CEX0"/>
+    <property object="CSLIB_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="CSLIB_0" propertyId="cslib.hidden.activepins" value="[u'0.1', u'0.2', u'0.3', u'0.6', u'1.1', u'1.2', u'1.3', u'1.4', u'1.5']"/>
+    <property object="CSLIB_0" propertyId="cslib.hidden.sleeppins" value="0.1,0.2,0.3,0.6,1.1,1.2,1.3,1.4,1.5,"/>
+    <property object="CSLIB_0" propertyId="cslib.thresholdsettings.activesensordelta" value="5000"/>
+    <property object="CSLIB_0" propertyId="cslib.thresholdsettings.averagetouchdelta" value="12000"/>
+    <property object="CSLIB_0" propertyId="cslib.thresholdsettings.inactivesensordelta" value="3000"/>
+    <property object="CSLIB_0" propertyId="cslib.thresholdsettings.singleactivesensordelta" value="5000"/>
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="FLASH_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="FLASH_0" propertyId="flash.flashscale.flashreadtimingoneshotbypass" value="SYSCLK determines flash read time (SYSCLK > 14 MHz)"/>
+    <property object="P0.0" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.1" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P0.1" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P0.1" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P0.1" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.2" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P0.2" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P0.2" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P0.2" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.3" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P0.3" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P0.3" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P0.3" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.4" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.5" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.6" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P0.6" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P0.6" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P0.6" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.0" propertyId="ports.settings.drivestrength" value="High drive"/>
+    <property object="P1.0" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.1" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P1.1" propertyId="ports.settings.drivestrength" value="High drive"/>
+    <property object="P1.1" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P1.1" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P1.1" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.2" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P1.2" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P1.2" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P1.2" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.3" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P1.3" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P1.3" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P1.3" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.4" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P1.4" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P1.4" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P1.4" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.5" propertyId="ports.capacitivesensesettings.capacitivesenseinput" value="Enabled"/>
+    <property object="P1.5" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P1.5" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P1.5" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.6" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P1.6" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P1.6" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P1.7" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P1.7" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P1.7" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="PBCFG_0" propertyId="pbcfg.settings.disableportioweakpullup" value="Pull-ups disabled"/>
+    <property object="PBCFG_0" propertyId="pbcfg.settings.enablecrossbar" value="Enabled"/>
+    <property object="PCACH_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PCACH_0" propertyId="pcach.pcachannelcapturecomparemode.enablechannelcomparatorfunction" value="Enabled"/>
+    <property object="PCACH_0" propertyId="pcach.pcachannelcapturecomparemode.enablechannelpulsewidthmodulationmoden" value="Enabled"/>
+    <property object="PCACH_0" propertyId="pcach.pcacontrol.channelcapturecomparemode" value="Predefined 8~11-Bit Pulse Width Modulator"/>
+    <property object="PCACH_1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PCACH_2" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PCACH_2" propertyId="pcach.pcachannel.matchfunction" value="Enabled"/>
+    <property object="PCA_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PCA_0" propertyId="pca.pcacountertimerconfiguration.pcaclockfrequency" value="1.667 MHz"/>
+    <property object="PCA_0" propertyId="pca.pcacountertimerconfiguration.pcaclockfrequencyintegervalue" value="1666666.66667"/>
+    <property object="PCA_0" propertyId="pca.pcacountertimerconfiguration.pcaclockperiod" value="600.000 ns"/>
+    <property object="PCA_0" propertyId="pca.pcastartrun.pcacountertimerruncontrol" value="Start"/>
+    <property object="PCA_0" propertyId="pca.watchdogcontrol.enablewatchdogtimer" value="Disabled"/>
+    <property object="RTC_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="RTC_0" propertyId="rtc.hidden.oscillatorprecisionwarning" value="No Warning"/>
+    <property object="RTC_0" propertyId="rtc.hidden.rtcalarmprogrammedvalue0" value="20"/>
+    <property object="RTC_0" propertyId="rtc.hidden.rtcloadcapacitanceprogrammedvalue" value="7"/>
+    <property object="RTC_0" propertyId="rtc.rtcalarm.actualalarmperiod" value="1.00 milliseconds"/>
+    <property object="RTC_0" propertyId="rtc.rtcalarm.alarmprogrammedvalue" value="20"/>
+    <property object="RTC_0" propertyId="rtc.rtcconfiguration.loadcapacitanceprogrammedvalue" value="7.5 pF"/>
+    <property object="RTC_0" propertyId="rtc.rtccontrol.enablertcoscillator" value="Enabled"/>
+    <property object="TIMER01_0" propertyId="timer01.timer1mode2:8bitcountertimerwithautoreload.targetoverflowfrequency" value="230400"/>
+    <property object="TIMER01_0" propertyId="timer01.timer1mode2:8bitcountertimerwithautoreload.timerinitvalue" value="255"/>
+    <property object="TIMER01_0" propertyId="timer01.timer1mode2:8bitcountertimerwithautoreload.timerreloadvalue" value="169"/>
+    <property object="TIMER16_3" propertyId="timer16.control.runcontrol" value="Start"/>
+    <property object="TIMER16_3" propertyId="timer16.control.timerrunningstate" value="Timer is Running"/>
+    <property object="TIMER16_3" propertyId="timer16.highbyte.highbyte" value="249"/>
+    <property object="TIMER16_3" propertyId="timer16.initandreloadvalue.targetoverflowfrequency" value="1000"/>
+    <property object="TIMER16_3" propertyId="timer16.initandreloadvalue.timerinitvalue" value="63869"/>
+    <property object="TIMER16_3" propertyId="timer16.initandreloadvalue.timerreloadvalue" value="63869"/>
+    <property object="TIMER16_3" propertyId="timer16.lowbyte.lowbyte" value="125"/>
+    <property object="TIMER16_3" propertyId="timer16.reloadhighbyte.reloadhighbyte" value="249"/>
+    <property object="TIMER16_3" propertyId="timer16.reloadlowbyte.reloadlowbyte" value="125"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+  </modeTransition>
+</device:XMLDevice>

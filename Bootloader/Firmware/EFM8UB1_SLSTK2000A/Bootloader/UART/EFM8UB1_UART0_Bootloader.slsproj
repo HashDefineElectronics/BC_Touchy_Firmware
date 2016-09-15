@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="EFM8UB1_UART0_Bootloader" kitCompatibility="com.silabs.kit.si8051.efm8ub1_slstk2000a" partCompatibility="com.silabs.mcu.si8051.efm8ub1_g" sdkCompatibility="com.silabs.sdk.si8051.sls:[3.0.0-4.0.0)" contentRoot=".">
+  <property key="category" value="Bootloaders"/>
+  <folder name="inc" uri="inc" includeAllFiles="false" includeAllFolders="false">
+    <file name="boot.h"/>
+    <file name="efm8_device.h"/>
+    <file name="flash.h"/>
+  </folder>
+  <folder name="src" uri="src" includeAllFiles="false" includeAllFolders="false">
+    <file name="boot_init.c"/>
+    <file name="boot_startup.asm"/>
+    <file name="boot_UART0.c"/>
+    <file name="flash.c">
+      <toolOption toolId="com.silabs.ide.si8051.keil.toolchain.compiler" optionId="com.silabs.ide.si8051.keil.compiler.category.general.code" value="com.silabs.ide.si8051.keil.compiler.category.general.code.compact"/>
+    </file>
+    <file name="main.c"/>
+  </folder>
+  <includePath languageCompatibility="c asm" uri="studio:/project/inc/"/>
+  <toolOption toolId="com.silabs.ide.si8051.keil.toolchain.compiler" optionId="com.silabs.ide.si8051.keil.compiler.category.general.code" value="com.silabs.ide.si8051.keil.compiler.category.general.code.small"/>
+  <toolOption toolId="com.silabs.ide.si8051.keil.toolchain.linker" optionId="com.silabs.ide.si8051.keil.linker.category.misc.extraflags" value="CLASSES(CODE(C:0x0-C:0xfbff)) SEGMENTS(?BL_START, ?PR?_WRITEBYTE?FLASH, ?BL_EXTRA, ?PR?*)"/>
+  <toolOption toolId="com.silabs.ide.si8051.keil.toolchain.linker" optionId="com.silabs.ide.si8051.keil.linker.category.ordering.selection" value="./src/boot_startup.OBJ;./src/main.OBJ;./src/flash.OBJ;./src/boot_init.OBJ;./src/boot_UART0.OBJ"/>
+</project>

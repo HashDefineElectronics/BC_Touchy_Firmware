@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="EFM8SB1_PwmBlinky" kitCompatibility="com.silabs.kit.si8051.efm8sb1_slstk2010a" partCompatibility="com.silabs.mcu.si8051.efm8sb1_g" sdkCompatibility="com.silabs.sdk.si8051.sls:[3.0.0-4.0.0)" contentRoot=".">
+  <property key="category" value="Demos"/>
+  <folder name="inc" uri="inc" includeAllFiles="false" includeAllFolders="false">
+    <folder name="config" uri="config" includeAllFiles="false" includeAllFolders="false">
+      <file name="efm8_config.h"/>
+      <file name="joystick_config.h"/>
+      <file name="memory_lcd_config.h"/>
+      <file name="pwm_blinky_config.h"/>
+    </folder>
+    <file name="adc.h"/>
+    <file name="InitDevice.h"/>
+    <file name="pwm_blinky.h"/>
+  </folder>
+  <folder name="src" uri="src" includeAllFiles="false" includeAllFolders="false">
+    <file name="adc.c"/>
+    <file name="InitDevice.c"/>
+    <file name="Interrupts.c"/>
+    <file name="main.c"/>
+    <file name="pwm_blinky.c"/>
+    <file name="SILABS_STARTUP.A51"/>
+  </folder>
+  <file name="EFM8SB1_PwmBlinky.hwconf"/>
+  <module id="com.silabs.sdk.si8051.external.efm8PeripheralDriver.spi0"/>
+  <module id="com.silabs.sdk.si8051.external.bsp.efm8_bsp"/>
+  <module id="com.silabs.sdk.si8051.external.bsp.efm8_memory_lcd"/>
+  <module id="com.silabs.sdk.si8051.external.bsp.efm8_joystick"/>
+  <excludedPath>src/Interrupts.c</excludedPath>
+  <includePath languageCompatibility="c" uri="studio:/project/inc/"/>
+  <includePath languageCompatibility="c" uri="studio:/project/inc/config/"/>
+</project>

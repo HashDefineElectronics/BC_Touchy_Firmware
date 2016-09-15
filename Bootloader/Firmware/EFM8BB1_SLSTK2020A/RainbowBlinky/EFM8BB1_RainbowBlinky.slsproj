@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="EFM8BB1_RainbowBlinky" kitCompatibility="com.silabs.kit.si8051.efm8bb1_slstk2020a" partCompatibility="com.silabs.mcu.si8051.efm8bb1_g" sdkCompatibility="com.silabs.sdk.si8051.sls:[3.0.0-4.0.0)" contentRoot=".">
+  <property key="category" value="Demos"/>
+  <folder name="inc" uri="inc" includeAllFiles="false" includeAllFolders="false">
+    <folder name="config" uri="config" includeAllFiles="false" includeAllFolders="false">
+      <file name="efm8_config.h"/>
+      <file name="joystick_config.h"/>
+      <file name="memory_lcd_config.h"/>
+      <file name="rainbowblinky_config.h"/>
+      <file name="rgb_led_config.h"/>
+    </folder>
+    <file name="adc.h"/>
+    <file name="InitDevice.h"/>
+    <file name="rainbowblinky.h"/>
+  </folder>
+  <folder name="src" uri="src" includeAllFiles="false" includeAllFolders="false">
+    <file name="adc.c"/>
+    <file name="InitDevice.c"/>
+    <file name="Interrupts.c"/>
+    <file name="main.c"/>
+    <file name="rainbowblinky.c"/>
+    <file name="SILABS_STARTUP.A51"/>
+  </folder>
+  <file name="EFM8BB1_RainbowBlinky.hwconf"/>
+  <module id="com.silabs.sdk.si8051.external.efm8PeripheralDriver.spi0"/>
+  <module id="com.silabs.sdk.si8051.external.bsp.efm8_bsp"/>
+  <module id="com.silabs.sdk.si8051.external.bsp.efm8_memory_lcd"/>
+  <module id="com.silabs.sdk.si8051.external.bsp.efm8_joystick"/>
+  <module id="com.silabs.sdk.si8051.external.bsp.efm8_rgb_led"/>
+  <excludedPath>src/Interrupts.c</excludedPath>
+  <includePath languageCompatibility="c" uri="studio:/project/inc/"/>
+  <includePath languageCompatibility="c" uri="studio:/project/inc/config/"/>
+</project>

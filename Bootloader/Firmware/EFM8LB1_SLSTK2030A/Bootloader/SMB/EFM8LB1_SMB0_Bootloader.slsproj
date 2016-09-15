@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="EFM8LB1_SMB0_Bootloader" kitCompatibility="com.silabs.kit.si8051.efm8lb1_slstk2030a" partCompatibility="com.silabs.mcu.si8051.efm8lb1_g" sdkCompatibility="com.silabs.sdk.si8051.sls:[3.0.0-4.0.0)" contentRoot=".">
+  <property key="category" value="Bootloaders"/>
+  <folder name="inc" uri="inc" includeAllFiles="false" includeAllFolders="false">
+    <file name="boot.h"/>
+    <file name="efm8_device.h"/>
+    <file name="flash.h"/>
+  </folder>
+  <folder name="src" uri="src" includeAllFiles="false" includeAllFolders="false">
+    <file name="boot_init.c"/>
+    <file name="boot_startup.asm"/>
+    <file name="boot_SMB0.c"/>
+    <file name="flash.c"/>
+    <file name="main.c"/>
+  </folder>
+  <includePath languageCompatibility="c asm" uri="studio:/project/inc/"/>
+  <toolOption toolId="com.silabs.ide.si8051.keil.toolchain.compiler" optionId="com.silabs.ide.si8051.keil.compiler.category.general.code" value="com.silabs.ide.si8051.keil.compiler.category.general.code.small"/>
+  <toolOption toolId="com.silabs.ide.si8051.keil.toolchain.linker" optionId="com.silabs.ide.si8051.keil.linker.category.misc.extraflags" value="SEGMENTS(?BL_START, ?PR?*)"/>
+  <toolOption toolId="com.silabs.ide.si8051.keil.toolchain.linker" optionId="com.silabs.ide.si8051.keil.linker.category.ordering.selection" value="./src/boot_startup.OBJ;./src/main.OBJ;./src/flash.OBJ;./src/boot_init.OBJ;./src/boot_SMB0.OBJ"/>
+  <configuration name="STK_PINOUT" label="STK_PINOUT" stockConfigCompatibility="com.silabs.ide.toolchain.core.release">
+    <macroDefinition languageCompatibility="c" name="STK_PINOUT" value=""/>
+  </configuration>
+  <configuration name="STANDARD_PINOUT" label="STANDARD_PINOUT" stockConfigCompatibility="com.silabs.ide.toolchain.core.release"/>
+</project>
