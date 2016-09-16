@@ -16,11 +16,16 @@ This is where the compiled version of the projects are stored. These are purely 
 
 - **Simple**  
 As the name suggest, this is a simple project to for test the basic functionality of the Touchy board. It uses Silabs CapsenseCircleSlider example project as its template. [Touchy](http://www.boldport.club/shop/product/437209749) board.  
-**Demo Video**  
+
+### Demo Video
 [![#5 - Demo of the test firmware for Boldport Kit no. 7 Touchy](http://img.youtube.com/vi/UFBcgWf9tuo/0.jpg)](https://youtu.be/UFBcgWf9tuo)
 
-- **Bootloader**  
-This is where the bootloader firmware and tools are located. Note this was taken direction from silabs [AN945SW.zip](http://www.silabs.com/Support%20Documents/Software/AN945SW.zip) and [AN945.pdf](http://www.silabs.com/Support%20Documents/TechnicalDocs/AN945.pdf).
+### Bootloader
+Note the instructions were taken directly from silabs [AN945SW.zip](http://www.silabs.com/Support%20Documents/Software/AN945SW.zip) and [AN945.pdf](http://www.silabs.com/Support%20Documents/TechnicalDocs/AN945.pdf).
+
+Here's the video @opticalworm running through the process of uploading firmware on to the Touchy board via its serial bootloader.  
+[![#7 - How to upload code to the Touchy board via the serial Bootloader](http://img.youtube.com/vi/HoMjZiPxQnk/0.jpg)](https://www.youtube.com/watch?v=HoMjZiPxQnk)
+
 
 ### IDE
 This project uses [Silabs Simplicity studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx).
